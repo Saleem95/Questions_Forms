@@ -1,0 +1,179 @@
+/* .App{
+    width: 100%;
+    height: 100vh;
+    background: #dadadc;
+}
+
+.form-div{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(212 212 212);
+    border: 1px;
+    box-shadow: 1px 1px 10px 6px #fff;}
+
+
+.form-div input{
+    padding: 15px !important;
+    border-radius: 10px;
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+.form-div button{
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: rgb(5, 167, 67);
+    color: #fff;
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.form-div button:hover{
+    background-color: rgb(1, 42, 17);
+    color: #fff;
+    box-shadow: 3px 2px 4px 1px #333
+}
+
+.form-editor-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+
+  .form-div{
+    margin: auto;
+    width: 80%;
+  }
+  label {
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+    margin-bottom:5px !important;
+    font-weight: bold;
+  }
+
+  
+  button:hover {
+    background-color: #45a049;
+  }
+   */
+
+
+
+
+
+   /* CategorizeQuestionForm.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+li:hover {
+  background-color: #f0f0f0;
+}
+
+li div {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+}
+
+/* Optional: Add more styling as needed */
+
+
+
+
+/* New custom styles */
+
+.dashboard{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+.sidebar{
+  width: 20%;
+  min-width: 250px;
+  height: 100vh;
+  position: fixed;
+  background: rgb(0 142 251 / 9%);
+  border-right: 0px #333;
+  box-shadow: 0px 4px 10px 0px #666 !important;
+  left: 0;
+  border-radius: 10px;
+  margin-right: 5px;
+  top: 8%;
+
+}
+.main-container{
+  width: 78%;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  overflow: auto;
+  top: 10%;
+}
+
